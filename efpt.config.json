@@ -1,0 +1,93 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "ProjectTrackerContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "ProjectManagerWebApi",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Projects]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tasks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[vw_Tasks_Projects]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[sp_Delete_Project]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Delete_Task]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Insert_Project]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Insert_Task]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Select_Project]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Select_Projects]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Select_Task]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SelectAll_ProjectsTasks]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SelectAll_Tasks]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Update_Project]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Update_Task]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "jberes.ProjectTracker",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
